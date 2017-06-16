@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/* Main website */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background: black;
+	color: #5E6C7F;
+	font-family: 'Raleway', sans-serif;
+	margin: 0px;
+}
+
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+	font-size: 250%;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2%;
+	color: #F5F5F5;
+}
+
+h3 {
+	font-size: 175%;
+	line-height: 155%;
+	padding: 5% 0;
+	font-weight: 400;
+	color: #F5F5F5;
+}
+
+p {
+	font-family: 'Raleway sans', sans-serif;
+	color: #F5F5F5;
+	font-size: 160%;
+	line-height: 150%;
+	padding: 3%;
+	text-indent: 2%;
+	text-align: justify;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin-bottom: -4px;
+}
+
+header {
+	background-color: black;
+	width: 100%;
+	height: 86px;
+}
+
+#header-inner {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#logo {
+	margin: 20px;
+	float: left;
+	width: 200px;
+	height: 60px;
+	background: url(img/RD.png) no-repeat center;
+}
+
+/*---Start Navigation--*/
+
+nav {
+	float: right;
+	padding: 25px 20px 0 0;
+}
+
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(img/nav.png) center;
+}
+
+a:hover#menu-icon {
+	border-radius: 4px 4px 00;
+}
+
+ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	font-family: 'Oswald', sans-serif;
+	font-size: 150%;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+nav ul li a {
+	color: #96ADCC;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #5E6C7F;
+}
+
+.current {
+	color: #5E6C7F;
+}
+
+/*---End Navigation*Start Banner--*/
+
+.banner {
+	width: 100%;
+	background-color: black;
+}
+
+.banner-inner {
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*---End Banner*Start One Fourth Section--*/
+
+.one-fourth {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+#solar {
+	background-color: #F1AA90;
+}
+
+#stars {
+	background-color: #BEB9AD;
+}
+
+#missions {
+	background-color: #AADCD2;
+}
+
+#finances {
+	background-color: #A2B2C1;
+}
+
+.one-fourth i {
+	color: #38567f;
+	font-size: 500%;
+	padding: 13% 0 4% 0;
+}
+
+.fa-spin-hover:hover {
+	animation: fa-spin 40s infinite linear;
+}
+
+/*---Start of 2 Column Section--*/
+
+.inner-wrapper {
+	float: left;
+	width: 100%;
+	background-color: #96ADCC;
+}
+
+article {
+	float: left;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+}
+
+#continents {
+	background-color: #96ADCC;
+	padding: 20px 0;
+}
+
+aside {
+	float: right;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+}
+
+#continents2 {
+	background-color: #96ADCC; 
+}
+
+#moons {
+	background-color: #BEB9AD;
+	padding: 20px 0;
+
+}
+
+.inner-wrapperx {
+	float: left;
+	width: 100%;
+	background-color: #F1AA90;
+}
+
+
+#mars {
+	background-color: #F1AA90;
+	padding: 20px 0;
+}
+
+.inner-wrapper-2 {
+	float: left;
+	width: 100%;
+	background-color: #BEB9AD;
+}
+
+#mars2 {
+	background-color: #F1AA90;
+}
+
+/*---Start of One-Third Section-----*/
+
+.inner-wrapper-3 {
+	float: left;
+	width: 100%;
+	background-color: #5E6C7F;
+}
+
+.one-third {
+	width: 33.3333333%;
+	float: left;
+	text-align: center;
+}
+
+#research {
+	background-color: #A2B1C1;
+}
+
+#collaborations {
+	background-color: #BEB9AD;
+}
+
+#sponsors {
+	background-color: #AADCD2;
+}
+
+#thumbs-up {
+	background-color: #5E6C7F;
+	padding: 0 0 1%;
+	clear: both;
+}
+
+/*---Start Footer--*/
+
+footer {
+	background-color: black;
+	width: 100%;
+	clear: both;
+}
+
+.social {
+	list-style-type: none;
+	text-align: center;
+}
+
+.social li {
+	display: inline;
+}
+
+.social i {
+	font-size: 460%;
+	margin: 1%;
+	padding: 5% 5% 5% 4%;
+	color: #96ADCC;
+}
+
+.social i:hover {
+	color: #5E6C7F;
+}
+
+footer.second {
+	border-top: 0px solid #AADCD2;
+	background-color: #38567F;
+	max-height: 90px;
+	margin: 0;
+}
+
+footer.second p {
+	padding: 5px 0 9px 0;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 80%;
+}
+ footer.second a {
+	 text-decoration: none;
+	 color: #96ADCC;
+ }
+ 
+ footer.second a:hover {
+	 color: #5E6C7F;
+ }
+ 
+ /*----------Start of PROJECTS page------*/
+ 
+ #one-fourth-projects:not(.one-fourth) {
+	clear: both;
+ }
+ 
+#one-fourth-projects a {
+	text-decoration: none;
+}
+
+#one-fourth-projects h2:hover {
+	font-weight: 100;
+}
+
+.mid-banner-inner {
+	float: left;
+	width: 33.333333%;
+	padding-top: 20px;
+}
+
+/*bookmark section*/
+
+.p-inner-wrapper1 {
+	float: left;
+	width: 100%;
+	border: 2px solid #5E6C7F;
+}
+
+.p-inner-wrapper2 {
+	float: left;
+	width: 100%;
+	border: 2px solid #5E6C7F;
+}
+
+.p-inner-wrapper3 {
+	float: left;
+	width: 100%;
+	border: 2px solid #5E6C7F;
+}
+
+.p-inner-wrapper4 {
+	float: left;
+	width: 100%;
+	border: 2px solid #5E6C7F;
+}
+
+.projects-images {
+	max-width: 60%;
+	max-height: 250px;
+}
+
+#p-bookmark-section aside {
+	text-align: center;
+	padding: 30px 0
+}
+
+#p-bookmark-section p {
+	text-align: right;
+}
+
+#p-bookmark-section strong {
+	font-size: 180%;
+}
+
+
+
+/*----------------MEDIA--------*/
+
+@media screen and (max-width: 768px) {
+	h2 {
+		font-size: 150%;
+	}
+	h3 {
+		font-size: 125%;
+	}
+	p {
+		font-size: 120%;
+	}
+	header {
+		position: absolute;
+	}
+	#logo {
+		margin: 15px 0 20px -25px;
+		background: url(img/RD_mobile.png) no-repeat center;
+	}
+	#menu-icon {
+		display: inline-block;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		z-index: 1000;
+		position: absolute;
+		padding: 20px;
+		background: black;
+		right: 20px;
+		top: 60px;
+		border: 2px solid #fff;
+		border-radius: 8px 0 8px 8px;
+		width: 50%;
+	}
+	nav:hover ul {
+		display: block;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+	}
+	.banner {
+		padding-top: 86px;
+	}
+	.one-fourth {
+		float: left;
+		width: 100%;
+	}
+	.one-fourth i {
+		font-size: 400%;
+		padding: 4% 0 1% 0;
+	}
+	article {
+		width: 100%;
+	}
+	aside {
+		width: 100%;
+	}
+	.moons-mobile {
+		display: none;
+	}
+	.one-third {
+		width: 100%;
+	}
+	.social i {
+		font-size: 180%;
+	}
+	/*---projects page---*/
+	#one-fourth-projects {
+		padding-top: 86px;
+	}
+}
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
